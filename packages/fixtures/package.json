@@ -1,0 +1,29 @@
+{
+  "name": "chaser-test",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolegreen1991/chaser-test.git"
+  },
+  "author": "nicole green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolegreen1991/chaser-test/issues"
+  },
+  "homepage": "https://github.com/Nicolegreen1991/chaser-test#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7"
+  }
+}

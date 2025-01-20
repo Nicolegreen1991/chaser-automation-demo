@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Use modern JavaScript features
+    "module": "ESNext", // Node.js uses CommonJS modules
+    "moduleResolution": "node", // Resolve modules in a Node.js environment
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Root directory of the TypeScript source
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Allow default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in imports
+    "skipLibCheck": true, // Skip type checking of declaration files for faster builds
+    "resolveJsonModule": true, // Allow importing .json files
+    "allowSyntheticDefaultImports": true, // Enable synthetic default imports
+    "noImplicitAny": false, // Allow variables with `any` type
+    "noUnusedLocals": true, // Report unused local variables
+    "noUnusedParameters": true, // Report unused function parameters
+    "sourceMap": true, // Generate source maps for debugging
+    "lib": ["ES2022", "DOM"], // Include modern ECMAScript features
+    "types": ["node"], // Include Node.js type definitions
+    "incremental": true, // Enable incremental builds
+    "declaration": true // Generate .d.ts files
+  },
+  "include": ["src"], // Include the `src` directory
+  "exclude": ["node_modules", "dist"] // Exclude `node_modules` and `dist` directories
+}
