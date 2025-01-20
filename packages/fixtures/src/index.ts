@@ -64,4 +64,5 @@ async function execute() {
     }
 }
 
+// @ts-ignore
 await execute();

@@ -3,7 +3,7 @@ let common = [
   '--require-module ts-node/register',
   '--require step-definitions/**/*.ts',
   '--format progress-bar',
-  '--format node_modules/cucumber-pretty'
+  '--format ../../node_modules/cucumber-pretty'
 ].join(' ');
 
 module.exports = {

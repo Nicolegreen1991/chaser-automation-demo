@@ -1,14 +1,8 @@
 {
-  "name": "cucumber-with-typescript",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "automation",
   "scripts": {
     "test": "cucumber-js -p default"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/cucumber": "^4.0.5",

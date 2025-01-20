@@ -1,0 +1,14 @@
+{
+  "name": "workspace-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:fixtures": "npm --workspace=packages/fixtures run start",
+    "test:cucumber": "npm --workspace=packages/automation run test"
+  },
+  "devDependencies": {
+  }
+}
